@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from config.py import call_py
+from config import call_py
 from MusicTelethon.التشغيل import arq
 async def main():
     await call_py.start()
